@@ -16,3 +16,16 @@
 +1111111111
 ntravel2021@gmail.com
 
+### Tech Skills:
+** Manual QA
+** HTML5
+** CSS3
+** JavaScript
+** Jira
+** Web analytics (Yandex.Metrica)
+** Git
+
+### Soft Skills
+** English B1
+** Agile
+** Time management

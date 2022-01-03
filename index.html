@@ -1,1 +1,157 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <a href="https://rs.school/" class="logo" target="_blank">RS School</a>
+            <ul>
+              <li><a href="#contacts" class="active-link">Contacts</a></li>
+              <li><a href="#skills" class="active-link">Skills</a></li>
+              <li><a href="#courses" class="active-link">Courses</a></li>
+              <li><a href="#code" class="active-link">Code</a></li>
+              <li><a href="#projects" class="active-link">Projects</a></li>
+              <li><a href="#languages" class="active-link">Languages</a></li>
+            </ul>
+          </nav>
+    </header>
+    <main>
+        
+        <section class="main-information">
+            <div class="about-me">
+                <h2>Hello!</h2>
+                <h1>I'm <span class="my-name">NICK</span>.</h1>
+                <p class="about-me-info">I'm Software Testing Specialist & Web-Designer.<br> But I want to be a Full-Stack-Developer for EPAM Systems!</p>
+            </div>
+        </section>
+        <div class="about-me-section">
+            <div class="my-information">
+                <section class="my-education-section">
+                    <h2>Education & Courses</h2>
+                    <h4 class="my-university">The Military academy of the Republic of Belarus</h4>
+                    <h4 class="my-university-profession">Management specialist with knowledge of foreign languages</h4>
+                    <p class="my-education-period">July 2008 - June 2013   <span class="my-education-period-divider">|</span>   Belarus, Minsk</p>
+
+                    <h4 id="courses" class="my-university">EPAM trainings</h4>
+                    <h4 class="my-university-profession">Software Testing Introduction, Version Control with Git</h4>
+                    <p class="my-education-period">February 2021 - March 2021  <span class="my-education-period-divider">|</span>   Belarus</p>
+
+                    <h4 class="my-university">GoIT training</h4>
+                    <h4 class="my-university-profession">HTML5, CSS3</h4>
+                    <p class="my-education-period">September 2021  <span class="my-education-period-divider">|</span>   Ukraine</p>
+
+                    <h4 class="my-university">Stepik training</h4>
+                    <h4 class="my-university-profession">HTML/CSS</h4>
+                    <p class="my-education-period"> October 2021  <span class="my-education-period-divider">|</span>   Russia</p>
+                </section>
+                <section id="projects" class="my-projects">
+                    <h2>Projects</h2>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="https://wayup-task5.netlify.app/" target="_blank">Web-site&form</a>
+                                <span>.................</span>
+                                <span>[HTML, CSS]</span>
+                            </li>
+                            <li>
+                                <a href="https://about-huston.netlify.app/" target="_blank">Web-site (wikipedia)</a>
+                                <span>........</span>
+                                <span>[HTML, CSS]</span>
+                            </li>
+                            <li>
+                                <a href="https://slider-city.netlify.app/" target="_blank">Slider-city</a>
+                                <span>.........................</span>
+                                <span>[JavaScript]</span>
+                            </li>
+                            <li>
+                                <a href="https://game-color-change.netlify.app/" target="_blank">Game</a>
+                                <span>................................</span>
+                                <span>[JavaScript]</span>
+                            </li>
+                        </ul>
+                    </nav>
+                </section>
+                <section id="code" class="my-code">
+                    <h2>Code</h2>
+                    <pre>
+                        <code>
+for (const slide of slides) {
+slide.addEventListener ('click', () => {
+clearActiveClasses()
+
+slide.classList.add('active')
+})
+}
+                        </code>
+                    </pre>
+                </section>
+                <section class="languages">
+                    <h2 id="languages">Languages</h2>
+                    <ul>
+                        <li>Russian - C1</li>
+                        <li>English - B1</li>
+                        <li>Polish - A1</li>
+                        <li>Chinese - HSK1</li>
+
+
+                    </ul>
+                </section>
+            </div>
+            <aside class="aside-section">
+                <img src="assets/img/IMG_3.jpg" alt="my-photo" class="photo">
+                <div id="contacts">
+                    <h2 class="color-letter">Contacts</h2>
+    
+                    <div>
+                        <ul>
+                            <li><span class="color-letter-contacts">C:</span>
+                            <a class="email-phone" href="tel:+380973171332">+380 973 17 13 32</a></li>
+                            <li><span class="color-letter-contacts">E:</span>
+                            <a class="email-phone" href="mailto:ntravel2021@gmail.com">ntravel2021@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="color-letter">
+                    <h2 id="skills">Tech Skills</h2>
+                    <ul>
+                        <li> <span>Manual QA</span></li> 
+                        <li> <span>HTML5</span> </li> 
+                        <li> <span>CSS3</span></li>  
+                        <li> <span>JavaScript</span></li>
+                        <li> <span>Jira</span></li> 
+                        <li> <span>Web analytics (Yandex.Metrica)</span></li>
+                        <li> <span>Git</span></li>
+                        <li> <span>SQL (MySQL)</span></li>
+                    </ul>
+                    
+                </div>
+    
+                <div class="color-letter">
+                    <h2>Soft Skills</h2>
+                    <ul>
+                        <li> <span>Agile</span></li> 
+                        <li> <span>Time management</span></li> 
+                        <li> <span>Teamwork</span></li> 
+                        <li> <span>Creative thinking</span></li> 
+                        <li> <span>Attention to details</span></li> 
+                    </ul>
+                    
+                </div>
+            </aside>
+        </div>
+    </main>
+    <footer>
+        <a href="https://rs.school/" target="_blank"><img src="assets/svg/rs_school_js.svg" alt="RSschool" width="50"></a>
+        <p>Alkhimenka Mikalai - 2022</p>
+        <a class="github" href="https://github.com/ntravel2021" target="_blank">ntravel2021</a>
+    
+    </footer>
+</body>
+</html>

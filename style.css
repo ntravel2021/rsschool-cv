@@ -1,1 +1,282 @@
-style.css
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #f6f5f5;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+header {
+  width: 100%;
+  background-color: #fff;
+  margin: 0 auto;
+
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  box-shadow: 2px 2px 12px rgba (0,0,0,0.2);
+  padding: 0px 5%;
+}
+
+.nav ul {
+  display: flex;
+}
+.nav ul li a {
+  margin: 30px;
+  color: #525252;
+  font-size: 16px;
+  font-weight: 700;
+}
+.logo {
+  color: #525252;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.active-link {
+  font-weight: 900;
+  color: rgb(147, 182, 134);
+}
+
+.about-me h2 {
+font-family: sans-serif;
+font-weight: 900;
+color: red;
+}
+
+.about-me h1 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: rgb(211, 211, 35);
+}
+
+.my-name {
+  font-family:cursive;
+}
+.about-me-info {
+  font-family:sans-serif;
+  font-weight: 900;
+  color: rgb(2, 252, 2);
+  line-height: 30px;
+}
+
+.about-me {
+  line-height: 20px;
+  margin: 45px 0 25px 10px;
+  text-align: center;
+}
+
+.my-education-section {
+
+  padding-left: 20px;
+}
+
+.my-university {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 15px 0 0 0;
+  color: #FB6D3A;
+}
+.my-university-profession {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+  margin: 10px 0 0 0;
+}
+
+.my-education-period {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #A8A8A8;
+  margin: 12px 0 0 0;
+}
+
+.my-education-period-divider {
+  color: #000;
+}
+
+.my-projects {
+  padding-left: 20px;
+  margin: 20px 0;
+}
+
+.my-code {
+  padding-left: 20px;
+  margin: 20px 0;
+}
+
+.languages {
+  padding-left: 20px;
+  margin: 20px 0;
+}
+
+.aside-section {
+  background-color: #224374;
+  width: 370px;
+  padding: 40px 0;
+  margin-top: 19px;
+}
+
+.aside-section div{
+  padding-left: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me-section {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.photo {
+  width: 100%;
+}
+
+.color-letter {
+  color: #fff;
+}
+
+.color-letter li {
+  color: rgb(25, 194, 75);
+}
+.color-letter-contacts {
+  color: rgb(25, 194, 75);
+}
+
+.email-phone {
+  color: rgb(25, 4, 80);
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 20px 0px 10px 0px;
+  width: 100%;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+  .logo {
+     font-size: 20px;
+  }
+  header {
+      margin: 0 auto;
+  }
+  main {
+      width: 100%;
+      margin: 0 auto;
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+  .logo {
+      font-size: 15px;
+   }
+   header {
+       width: 100%;
+       margin: 0 auto;
+   }
+   .nav {
+      padding: 0px 5px;
+   }
+   
+   main {
+       width: 720px;
+       margin: 0 auto;
+   }
+   .aside-section{
+      padding: 0 auto;
+  }
+  .aside-section div {
+      padding: 0px 5px;
+  }
+  .aside-section div ul {
+      padding: 0px 5px;
+  }
+  .email-phone {
+      font-size: 14px;
+  }
+  }
+  
+
+@media screen and (max-width: 768px) {
+  
+  .logo {
+      font-size: 14px;
+   }
+   header {
+       width: 100%;
+       margin: 0 auto;
+   }
+   .nav ul li a {
+      margin: 10px;
+      color: #525252;
+      font-size: 14px;
+      font-weight: 700;
+  }
+  main {
+      width: 100%;
+      margin: 0 auto;
+  }
+  .about-me-section {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+  }
+
+  .aside-section {
+      padding: 0 auto;  
+  }
+}
+   
+
+@media screen and (max-width: 576px) {
+  header {
+      width: 95%;
+      height: auto;
+      margin: 0 auto;  
+      }
+      .nav {
+          height: auto;
+          margin: 10px;
+          padding: 10px;
+      }
+      .nav ul {
+          display: flex;
+          flex-direction: column;
+      }
+  main {
+      width: 100%;
+      margin: 0 auto;
+  }
+  .about-me-section {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      margin: 0 auto;
+  }
+  .aside-section{
+      padding: 0 auto;
+  }
+}
